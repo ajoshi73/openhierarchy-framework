@@ -13,7 +13,7 @@
 	<properties>
 		<jdk.version>1.7</jdk.version>
 		<!-- github server corresponds to entry in ~/.m2/settings.xml -->
-    	<!--  <github.global.server>github</github.global.server> https://github.com/Sundsvallskommun/openhierarchy-framework -->
+    	<github.global.server>github</github.global.server>
 	</properties>
 	<distributionManagement>
 	<site>
@@ -191,8 +191,6 @@
                 <includes><include>**/*</include></includes>
                 <repositoryName>openhierarchy-framework</repositoryName>      <!-- github repo name -->
                 <repositoryOwner>Sundsvallskommun</repositoryOwner>    <!-- github username  -->
-                <userName>sweco-segjoa</userName>
-                <password>dUnE020321</password>
             </configuration>
             <executions>
               <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
