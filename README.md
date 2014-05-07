@@ -1,4 +1,0 @@
-openhierarchy-framework
-=======================
-
-openhierarchy-framework
