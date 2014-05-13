@@ -5,11 +5,12 @@
 	http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.unlogic</groupId>
-	<artifactId>openhierarchy-framework</artifactId>
+	<artifactId>openhierarchy-standardutils</artifactId>
 	<packaging>jar</packaging>
 	<version>2.0</version>
-	<name>framework</name>
+	<name>standardutils</name>
 	<url>http://maven.apache.org</url>
+ 
 	<properties>
 		<jdk.version>1.7</jdk.version>
 		<!-- github server corresponds to entry in ~/.m2/settings.xml -->
@@ -32,107 +33,6 @@
   		<url>https://github.com/Sundsvallskommun/openhierarchy-framework</url>
   		<tag>mvn-repo</tag>
 	</scm>
-	<repositories> 
- 	<repository>
-      <id>openhierarchy-standardutils</id>
-      <name>standardutils</name>
-      <url>file://C:\Openhierarchy\standardutils</url>
-    </repository>
-    <repository>
-      <id>openhierarchy-webutils</id>
-      <name>webutils</name>
-      <url>file://C:\Openhierarchy\webutils</url>
-    </repository>
-    <repository>
-      <id>openhierarchy-emailutils</id>
-      <name>webutils</name>
-      <url>file://C:\Openhierarchy\emailutils</url>
-    </repository>
-    <repository>
-      <id>openhierarchy-fileuploadutils</id>
-      <name>webutils</name>
-      <url>file://C:\Openhierarchy\fileuploadutils</url>
-    </repository>
-    <repository>
-      <id>openhierarchy-jcaptchautils</id>
-      <name>webutils</name>
-      <url>file://C:\Openhierarchy\jcaptchautils</url>
-    </repository>
-    <repository>
-      <id>openhierarchy-log4jutils</id>
-      <name>webutils</name>
-      <url>file://C:\Openhierarchy\log4jutils</url>
-    </repository>
-    <repository>
-      <id>openhierarchy-purecaptcha</id>
-      <name>webutils</name>
-      <url>file://C:\Openhierarchy\purecaptcha</url>
-    </repository>
-    </repositories>
-    <dependencies>
-    <dependency>
-    	<artifactId>openhierarchy-standardutils</artifactId>
-    	<groupId>se.unlogic</groupId>
-    	<version>2.0</version>
-    </dependency>
-    <dependency>
-    	<artifactId>openhierarchy-emailutils</artifactId>
-    	<groupId>se.unlogic</groupId>
-    	<version>2.0</version>
-    </dependency>
-    <dependency>
-    	<artifactId>openhierarchy-fileuploadutils</artifactId>
-    	<groupId>se.unlogic</groupId>
-    	<version>2.0</version>
-    </dependency>
-    <dependency>
-    	<artifactId>openhierarchy-jcaptchautils</artifactId>
-    	<groupId>se.unlogic</groupId>
-    	<version>2.0</version>
-    </dependency>
-    <dependency>
-    	<artifactId>openhierarchy-log4jutils</artifactId>
-    	<groupId>se.unlogic</groupId>
-    	<version>2.0</version>
-    </dependency>
-    <dependency>
-    	<artifactId>openhierarchy-purecaptcha</artifactId>
-    	<groupId>se.unlogic</groupId>
-    	<version>2.0</version>
-    </dependency>
-    <dependency>
-    	<artifactId>openhierarchy-webutils</artifactId>
-    	<groupId>se.unlogic</groupId>
-    	<version>2.0</version>
-    </dependency>
-    <dependency>
-	<groupId>commons-dbcp</groupId>
-	<artifactId>commons-dbcp</artifactId>
-	<version>1.4</version>
-</dependency>
-    <dependency>
-	<groupId>commons-fileupload</groupId>
-	<artifactId>commons-fileupload</artifactId>
-	<version>1.3.1</version>
-</dependency>
-           <dependency>
-	<groupId>javax.mail</groupId>
-	<artifactId>mail</artifactId>
-	<version>1.4.7</version>
-</dependency>
-                     
-    <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>javax.servlet-api</artifactId>
-        <version>3.0.1</version>
-        <scope>provided</scope>
-       </dependency>
-<dependency>
-	<groupId>log4j</groupId>
-	<artifactId>log4j</artifactId>
-	<version>1.2.16</version>
-</dependency>            
-    </dependencies>
  	<build>
 	<sourceDirectory>src</sourceDirectory>
 	<plugins>

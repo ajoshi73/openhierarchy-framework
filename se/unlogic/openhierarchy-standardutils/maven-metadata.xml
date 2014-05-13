@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>se.unlogic</groupId>
-  <artifactId>openhierarchy-framework</artifactId>
+  <artifactId>openhierarchy-standardutils</artifactId>
   <versioning>
     <release>2.0</release>
     <versions>
       <version>2.0</version>
     </versions>
-    <lastUpdated>20140509131558</lastUpdated>
+    <lastUpdated>20140513140253</lastUpdated>
   </versioning>
 </metadata>
