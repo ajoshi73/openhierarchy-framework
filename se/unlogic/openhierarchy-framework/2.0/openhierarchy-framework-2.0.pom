@@ -134,6 +134,14 @@
 </dependency>            
     </dependencies>
  	<build>
+ 	<resources>
+        <resource>
+            <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.properties</include>
+            </includes>
+        </resource>
+    </resources>
 	<sourceDirectory>src</sourceDirectory>
 	<plugins>
 	  <plugin>
@@ -159,6 +167,7 @@
 	      	  <configuration>
 	        	<outputDirectory>target/classes/lib</outputDirectory>
 	        	<overWriteIfNewer>true</overWriteIfNewer>
+	        	
 	        	<excludeGroupIds>
 	          		junit,org.hamcrest,org.mockito,org.powermock,${project.groupId}
 	        	</excludeGroupIds>
