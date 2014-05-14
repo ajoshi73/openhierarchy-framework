@@ -134,15 +134,15 @@
 </dependency>            
     </dependencies>
  	<build>
- 	<resources>
+ 		<sourceDirectory>src</sourceDirectory>
+	 	<resources>
         <resource>
-            <directory>src/main/java</directory>
+            <directory>src</directory>
             <includes>
                 <include>**/*.properties</include>
             </includes>
         </resource>
-    </resources>
-	<sourceDirectory>src</sourceDirectory>
+        </resources>
 	<plugins>
 	  <plugin>
 		<groupId>org.apache.maven.plugins</groupId>
