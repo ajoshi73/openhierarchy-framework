@@ -131,7 +131,12 @@
 	<groupId>log4j</groupId>
 	<artifactId>log4j</artifactId>
 	<version>1.2.16</version>
-</dependency>            
+</dependency>      
+<dependency>
+    <groupId>com.efsavage.jquery</groupId>
+    <artifactId>jquery-maven</artifactId>
+    <version>1.7.2</version>
+</dependency>      
     </dependencies>
  	<build>
  		<sourceDirectory>src</sourceDirectory>
